@@ -1,10 +1,10 @@
 def my_each(arr) # put argument(s) here
   # code here
   if block_given?
-    i=0
-    while i < arr.size
+    a=0
+    while a < arr.size
       yield i
-      i += 1
+      a += 1
     end
     arr
   else
@@ -12,4 +12,3 @@ def my_each(arr) # put argument(s) here
   end
 end
 
-my_each([0,1,2,3]) {|i| puts i}
