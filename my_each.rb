@@ -12,3 +12,4 @@ def my_each(arr) # put argument(s) here
   end
 end
 
+my_each([1,2,3,4]) { |i| puts i }
