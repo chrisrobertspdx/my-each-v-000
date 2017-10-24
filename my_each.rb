@@ -3,7 +3,7 @@ def my_each(arr) # put argument(s) here
   if block_given?
     a=0
     while a < arr.size
-      yield
+      yield i
       a += 1
     end
     arr
