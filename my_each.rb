@@ -4,7 +4,7 @@ def my_each(arr) # put argument(s) here
     i=0
     while i < arr.size
       yield i
-      i =+ 1
+      i += 1
     end
     arr
   else
