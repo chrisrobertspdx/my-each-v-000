@@ -11,5 +11,3 @@ def my_each(arr) # put argument(s) here
     puts "No block was given."
   end
 end
-
-
